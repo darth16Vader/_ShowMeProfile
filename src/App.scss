@@ -1,0 +1,15 @@
+@import './components/assets/mixins/breakpoints';
+
+body{
+    background-color: #2C2D31;
+}
+
+main {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50vh;
+
+    @media (max-width: $xs-scr){
+        margin-bottom: 70vh;
+    }
+}

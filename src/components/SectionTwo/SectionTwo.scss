@@ -1,0 +1,180 @@
+@import "../assets/mixins/color";
+@import "../assets/mixins/font";
+@import "../assets/mixins/style";
+@import "../assets/mixins/breakpoints";
+
+.sectionTwo{
+    display: flex;
+    align-items: center;
+    background: #2C2D31;
+    padding: 0 5.6rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $bg-dark;
+    font-family: 'Roboto Flex', sans-serif;
+
+    @media (max-width: $l-scr) {
+        padding: 1rem;
+    }
+
+    .txt-whatImGreat{
+
+        @media (max-width: $l-scr) {
+            margin-bottom: 1rem;
+        }
+
+    }
+
+    .para-desc{
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 200;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+
+        @media (max-width: $lg-scr) {
+            width: 100%;
+        }
+
+        @media (max-width: $l-scr) {
+            display: none;
+        }
+    }
+
+    .box-proj{
+        padding: 3rem 0;
+        height: 300px;
+        border-radius: 5px;
+        background-color: #3f3f43;
+
+        @media (max-width: $tab-scr) {
+            padding: 0;
+            height: 200px;
+        }
+
+        @media (max-width: $l-scr) {
+            padding: 0;
+            height: 150px;
+        }
+
+        i{
+            color: $txt-green;
+            font-size: 2rem;
+
+            @media (max-width: $l-scr) {
+                font-size: 1rem;
+                margin-top: 20px !important;
+            }
+        }
+
+        hr{
+            width: 150px;
+            margin: 20px auto;
+            border: .5px solid $txt-green;
+
+            @media (max-width: $tab-scr) {
+                width: 80%;
+                margin: 5px auto;
+            }
+
+            @media (max-width: $l-scr) {
+                width: 60%;
+                margin: 5px auto;
+            }
+        }
+
+        p{
+            @include capitalize;
+            color: #fff;
+            font-weight: 300;
+
+            @media (max-width: $l-scr) {
+                font-size: .8rem;
+            }
+
+            @media (max-width: $xs-scr) {
+                width: 100px;
+                margin: 0 auto;
+            }
+    
+        }
+
+        span{
+            font-size: .8rem;
+            color: $txt-cloud;
+
+            @media (max-width: $l-scr) {
+                font-size: .6rem;
+            }
+        }
+    }
+
+    .box-info{
+
+        span{
+            font-size: 2rem;
+            color: $txt-green;
+
+            @media (max-width: $l-scr) {
+                font-size: 1.5rem;
+            }
+        }
+
+        p{
+            color: $txt-cloud;
+
+            @media (max-width: $l-scr) {
+                font-size: .8rem;
+                margin-bottom: 0px;
+            }
+        }
+
+        .my-5{
+
+            @media (max-width: $l-scr) {
+                margin-top: .5rem !important;
+                margin-bottom: .5rem !important;
+                font-size: .6rem;
+            }
+
+        }
+    }
+
+    .icons{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin: 0 auto 2rem auto;
+
+        @media (max-width: $tab-scr) {
+            width: 80%;
+        }
+
+        @media (max-width: $xs-scr) {
+            width: 250px;
+        }
+
+        ul{
+            padding-left: 0;
+            
+            li{
+                margin: 15px;
+                font-size: 3rem;
+                display: inline-block;
+                list-style: none;
+
+                @media (max-width: $l-scr) {
+                    margin: 5px;
+                    font-size: 2rem;
+                }
+
+                i:hover{
+                    color: $txt-green;
+                }
+            }
+        }
+    }
+    
+}
