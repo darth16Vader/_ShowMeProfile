@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage" : "/build",
+  "homepage" : "https://darth16Vader.github.io/ShowMeProfile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
