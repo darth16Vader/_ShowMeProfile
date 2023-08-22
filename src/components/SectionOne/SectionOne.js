@@ -28,7 +28,7 @@ const sectionOne = () => {
                         <div className='intro txt-green'>- Introduction<br /></div>
                         <div className='txt-big mb-2'>Front-end <br />Web Developer<br /></div>
                         <p className='desc'>I'm a industrious person and dedicated profession front-end developer/user interface designer. I always continue to learn how to improve the processes and practice with new ideas of programming, concept and other methods.</p>
-                        <a className='btn btn-secOne1 m-2 shadow' target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1XeIsRWf_rYyOS-PXHS7KPedZD61Io5iO/view?usp=sharing'>View resume</a>
+                        <a className='btn btn-secOne1 m-2 shadow' target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1QL4iBtznSmGcaypsk25InY6TtEVyBoMx/view?usp=sharing'>View resume</a>
                         <a className='btn btn-secOne2 m-2 shadow' href='#two'>Know more</a>
                     </div>
                 </div>
